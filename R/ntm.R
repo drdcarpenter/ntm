@@ -1,7 +1,5 @@
 ntm <- function(x){
   
-  library(magrittr) # TODO remove this dependency
-  
   # check for missing data
   if(!"NAMM" %in% colnames(x)) {
     cat("ERROR: NAMM column missing.\n");

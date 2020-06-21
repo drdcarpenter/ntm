@@ -3,10 +3,10 @@ library(tibble)
 
 ntm_score <- function(NAMM, PONS, Lrr, Lat){
   l <- list(NAMM = NAMM, PONS = PONS, Lrr = Lrr, Lat = Lat)
-  df <- as_tibble(l)
+  df <- tibble::as_tibble(l)
   
   df <- df %>% 
-    mutate(
+    dplyr::mutate(
       ts1 = 0,
       ts2 = (74.17398 + (NAMM * 9.57158) + (PONS * 5.32) + (Lrr * 0.08640) - (Lat * 1.21115)),
       ts3 = (114.46581 + (NAMM * 10.93007) + (PONS * 5.27272) + (Lrr * 0.08981) - (Lat * 1.85779)),
