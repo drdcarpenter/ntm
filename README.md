@@ -9,7 +9,7 @@ The ntm enables the calculation of tranquility scores and definitions in accorda
 
 ## Installation
 
-You cannot install the latest version of ntm from [GitHub](https://github.com/drdcarpenter/ntm) with:
+You can install the latest version of ntm from [GitHub](https://github.com/drdcarpenter/ntm) with:
 
 ``` r
 install_github("drdcarpenter/ntm")
