@@ -5,7 +5,7 @@
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
-The ntm emables the calculation of tranquility scores and definitions in accordance with the Natural Tranquility Method, devised by Clive Bentley (2019).  The NTM method takes four measures of the quality and quantity of sound in a space: NAMM, PONS, Lrr and Lat.  The NTM method calculates the probability of each tranquility score being measured and selects the score with the highest probability.
+The ntm enables the calculation of tranquility scores and definitions in accordance with the Natural Tranquility Method, devised by Clive Bentley (2019).  The NTM method takes four measures of the quality and quantity of sound in a space: NAMM, PONS, Lrr and Lat.  The NTM method calculates the probability of each tranquility score being measured and selects the score with the highest probability.
 
 ## Installation
 
