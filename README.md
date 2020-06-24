@@ -26,7 +26,7 @@ library(ntm)
 ntm_score(3, 50, 15, 45)
 
 ## using a dataframe with columns called NAMM, PONS, Lrr and Lat
-
-ntm(df)
+data(ntm)
+ntm(ntm)
 ```
 
