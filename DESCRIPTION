@@ -2,8 +2,9 @@ Package: ntm
 Type: Package
 Title: Functions for Calculating Natural Tranquility Scores (Bentley 2019)
 Version: 0.1.0
-Author@R: person("Dan", "Carpenter", email = "drdcarpenter@googlemail.com", role = c("aut", "cre"))
+Authors@R: person("Dan", "Carpenter", email = "drdcarpenter@googlemail.com", role = c("aut", "cre"))
 Maintainer: Dan Carpenter <drdcarpenter@googlemail.com>
+URL: https://github.com/drdcarpenter/ntm
 Description: The ntm package includes functions for calculating tranqulility scores based on the Natural Tranquility Method, devised by Clive Bently (2019)
     This method uses four factors to describe the quality and quantity of noise in spaces.  The functions in this package allow the calcualtion of tranquility scores based on these method in two ways: first from individual values and second from a dataframe of values.
     The package also includes an example data set taken from Clive Bentley's book.
