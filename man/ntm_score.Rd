@@ -2,32 +2,33 @@
 % Please edit documentation in R/ntm_score.R
 \name{ntm_score}
 \alias{ntm_score}
-\title{FUNCTION_TITLE}
+\title{ntm_score}
 \usage{
 ntm_score(NAMM, PONS, Lrr, Lat)
 }
 \arguments{
-\item{NAMM}{PARAM_DESCRIPTION}
+\item{NAMM}{a NAMM score between 1-5}
 
-\item{PONS}{PARAM_DESCRIPTION}
+\item{PONS}{a PONS score, the percentage of natural sound}
 
-\item{Lrr}{PARAM_DESCRIPTION}
+\item{Lrr}{a road and rail score in decibels, 15-90 dB}
 
-\item{Lat}{PARAM_DESCRIPTION}
+\item{Lat}{a corrected overall level, in decibels, 15-90dB}
 }
 \value{
-OUTPUT_DESCRIPTION
+a tranquility description as a string
 }
 \description{
-FUNCTION_DESCRIPTION
+calculates a tranquility score from four inputs
 }
 \details{
-DETAILS
+each argument must be an integer
 }
 \examples{
 \dontrun{
 if(interactive()){
- #EXAMPLE1
+ #EXAMPLE
+ ntm_score(5, 97, 15, 48)
  }
 }
 }
