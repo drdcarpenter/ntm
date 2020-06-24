@@ -1,6 +1,24 @@
-library(dplyr)
-library(tibble)
-
+#' @title FUNCTION_TITLE
+#' @description FUNCTION_DESCRIPTION
+#' @param NAMM PARAM_DESCRIPTION
+#' @param PONS PARAM_DESCRIPTION
+#' @param Lrr PARAM_DESCRIPTION
+#' @param Lat PARAM_DESCRIPTION
+#' @return OUTPUT_DESCRIPTION
+#' @details DETAILS
+#' @examples 
+#' \dontrun{
+#' if(interactive()){
+#'  #EXAMPLE1
+#'  }
+#' }
+#' @seealso 
+#'  \code{\link[tibble]{as_tibble}}
+#'  \code{\link[dplyr]{mutate}},\code{\link[dplyr]{case_when}}
+#' @rdname ntm_score
+#' @export 
+#' @importFrom tibble as_tibble
+#' @importFrom dplyr mutate case_when
 ntm_score <- function(NAMM, PONS, Lrr, Lat){
   l <- list(NAMM = NAMM, PONS = PONS, Lrr = Lrr, Lat = Lat)
   df <- tibble::as_tibble(l)

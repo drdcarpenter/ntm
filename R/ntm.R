@@ -1,3 +1,19 @@
+#' @title FUNCTION_TITLE
+#' @description FUNCTION_DESCRIPTION
+#' @param x PARAM_DESCRIPTION
+#' @return OUTPUT_DESCRIPTION
+#' @details DETAILS
+#' @examples 
+#' \dontrun{
+#' if(interactive()){
+#'  #EXAMPLE1
+#'  }
+#' }
+#' @seealso 
+#'  \code{\link[dplyr]{mutate}},\code{\link[dplyr]{case_when}}
+#' @rdname ntm
+#' @export 
+#' @importFrom dplyr mutate case_when
 ntm <- function(x){
   
   # check for missing data
