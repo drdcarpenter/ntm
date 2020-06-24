@@ -1,12 +1,14 @@
-#' @title FUNCTION_TITLE
-#' @description FUNCTION_DESCRIPTION
-#' @param x PARAM_DESCRIPTION
-#' @return OUTPUT_DESCRIPTION
-#' @details DETAILS
+#' @title ntm
+#' @description Calculate tranquility scores for sites in a dataframe
+#' @param x a dataframe containing NAMM, PONS, Lrr and Lat columns
+#' @return a tibble with probabilities for each tranquility score, a tranquility score and a tranquility description
+#' @details Your dataframe must contain columns with the attributes NAMM, PONS, Lrr and Lat
 #' @examples 
 #' \dontrun{
 #' if(interactive()){
-#'  #EXAMPLE1
+#'  #EXAMPLE
+#'  df <- data(ntm)
+#'  ntm(df)
 #'  }
 #' }
 #' @seealso 

@@ -1,15 +1,16 @@
-#' @title FUNCTION_TITLE
-#' @description FUNCTION_DESCRIPTION
-#' @param NAMM PARAM_DESCRIPTION
-#' @param PONS PARAM_DESCRIPTION
-#' @param Lrr PARAM_DESCRIPTION
-#' @param Lat PARAM_DESCRIPTION
-#' @return OUTPUT_DESCRIPTION
-#' @details DETAILS
+#' @title ntm_score
+#' @description calculates a tranquility score from four inputs
+#' @param NAMM a NAMM score between 1-5
+#' @param PONS a PONS score, the percentage of natural sound
+#' @param Lrr a road and rail score in decibels, 15-90 dB
+#' @param Lat a corrected overall level, in decibels, 15-90dB
+#' @return a tranquility description as a string
+#' @details each argument must be an integer
 #' @examples 
 #' \dontrun{
 #' if(interactive()){
-#'  #EXAMPLE1
+#'  #EXAMPLE
+#'  ntm_score(5, 97, 15, 48)
 #'  }
 #' }
 #' @seealso 
@@ -53,8 +54,6 @@ ntm_score <- function(NAMM, PONS, Lrr, Lat){
   
   tranquility <- df$tranquility
   
-  res <- paste0("<html><h1>", tranquility, "</h1></html>")
-  
-  res
+  return(tranquility)
   
 }
